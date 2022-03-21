@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+  <includeAll path="Table" relativeToChangelogFile="true" />
+  <includeAll path="StoredProcedure" relativeToChangelogFile="true" />
+  <includeAll path="Function" relativeToChangelogFile="true" />
+  <includeAll path="View" relativeToChangelogFile="true" />
+  <include file="PostDeployment_Constraints.sql" relativeToChangelogFile="true" />
+</databaseChangeLog> 
